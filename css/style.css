@@ -1,0 +1,36 @@
+
+  nav{
+    background-color: black;
+  }
+  .gris{
+    background-color: #444444;
+    
+  }
+  .nav-item:hover{
+    background-color: #444444;
+    
+  }
+  .dropdown-item{
+    padding: 10px;
+    opacity: 70%;
+    color: white;
+  }
+  .dropdown-item:hover{
+    padding: 10px;
+    opacity: 100%;
+    background-color: #292929;
+    color: white;
+  }
+  li:hover
+{
+  bottom: 0px;
+    border-bottom:solid aqua;
+}
+
+
+ 
+
+  
+
+
+  
