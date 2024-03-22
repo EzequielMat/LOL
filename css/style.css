@@ -21,13 +21,45 @@
     background-color: #292929;
     color: white;
   }
-  li:hover
+  header li:hover
 {
   bottom: 0px;
     border-bottom:solid aqua;
 }
+.imagenover{
+  overflow: hidden;
+  height: 100%;
+}
 
+.imagen {
+  transform: scale(1.1);
+  height: 100%;
+  transition: 0.5s;
+}
+.imagen:hover{
+transform: scale(1.0);
+transition:  0.5s;
+height: 100%;
+}
+div[class="col-2 shadow p-0 mx-2 mt-5 mb-5"]  div{
+  color: white;
+  transition:  0.5s;
+  background-color: black;
+}
 
+div [class="col-2 shadow p-0 mx-2 mt-5 mb-5"]:hover div{
+  transition:  0.5s;
+  text-indent: 8px;
+  background-color: #006680;
+}
+footer nav{
+  background-color: #292929;
+}
+footer nav .nav-item:hover{
+  background-color: #444444;
+  
+  
+}
  
 
   
